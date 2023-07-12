@@ -1,0 +1,48 @@
+@media all and (max-width: 750px)
+{
+
+.main
+    {
+        height: auto;
+
+    }
+    .head
+    {
+        padding-bottom: 100px;
+    }
+    .head > p
+    {
+        font-size: 2rem;
+    }
+    .video
+    {
+        display: none;
+    }
+    .sub
+{
+    height: auto;
+    background-image: linear-gradient(90deg, #5a3323, #3f261c);
+}
+    .card2, .card3
+{
+
+    flex-direction: column;
+    
+}
+.logo1, .logo2
+{
+    padding: 20px;
+    
+}
+.logo1 > img, .logo2 > img
+{
+    border-radius: 20%;
+}
+.footer
+    {
+      flex-direction: column;
+      height: auto;
+    }
+    
+
+}

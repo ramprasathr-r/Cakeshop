@@ -1,0 +1,96 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    height: auto;
+    
+}
+.form_bg
+{
+    background-image: url('../images/conbg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+form
+{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(2px);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+    width: 50%;
+    padding: 20px;
+    color: gold;
+    font-weight: 900;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.form > textarea
+{
+    height: 100px;
+    width: 400px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    outline: none;
+    font-weight: bold;
+    color: red;
+    padding: 2px;
+}
+.form > h1{
+    
+    font-size: 3rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.form > input
+{
+    font-size: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 40px;
+    width: 400px;
+    color: red;
+    font-size: 1rem;
+    outline: none;
+    font-weight: bold;
+    padding: 2px;
+}
+label
+{
+    font-size: 1.5rem;
+    margin-right: 30px;
+    text-shadow: 3px 3px 7px black;
+}
+button
+{
+    margin-top: 50px;
+    padding: 10px;
+    width: 80px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.5);
+    border: 0.2px solid;
+}
+button:hover
+{
+    background: goldenrod;
+}
+@media all and (max-width:600px)
+{
+    form
+    {
+        background: transparent;
+    }
+}

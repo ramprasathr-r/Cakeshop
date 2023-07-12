@@ -1,0 +1,108 @@
+@media all and (max-width: 800px)
+{
+    .Home
+    {
+        height: auto;
+}
+.main
+{
+  height: 100vh;
+}
+.sub
+{
+  padding-top: 400px;
+  width: 23%;
+  color: white;
+  padding-left: 50px;
+  font-family: 'Sulphur Point', sans-serif;
+  font-size: 2rem;
+  line-height: 40px;
+  transition: 2s;
+  animation-name: landing;
+  animation-duration: 2s;
+}
+@keyframes landing
+{
+  0%
+  { transform: translateY(50px);}
+  100%{
+    transform: translate(0px);
+  }   
+}
+.button
+{
+  padding-top: 30px;
+  padding-left: 50px;
+  transition: 2s;
+  animation-name: landing;
+  animation-duration: 3s;
+}
+
+
+.second
+{
+  
+  height: 100vh;
+  padding-bottom: 30px;
+  
+}
+.body
+{
+    flex-direction: column;
+    align-items: center;
+   
+}
+.logo
+{
+  height: 300px;
+  width: 450px;
+  padding: 10px;
+  
+}
+.para > p
+{
+  width: 400px;
+  color: cornsilk;
+  line-height: 20px;
+}
+
+.third
+{
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+.img1, .img2, .img3
+{
+  height: 250px;
+  width: 280px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+}
+.overlay, .overlay2, .overlay3
+{
+  
+  height: 89%;
+  width: 90.5%;
+}
+.footer
+    {
+      flex-direction: column;
+      height: auto;
+    }
+    .video
+    {
+      height: 300px;
+      width: 100%;
+      padding-left: 80px;
+      
+    }
+    .video > video
+    {
+      height: 300px;
+      width: 60%;
+      
+    }
+}

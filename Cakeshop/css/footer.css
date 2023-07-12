@@ -1,0 +1,93 @@
+.footer
+{
+  display: flex;
+  background: #000000;
+  
+  justify-content: space-evenly;
+  height: 300px;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+.ffirst > h2
+{
+	font-size: 4rem;
+  color: white;
+  font-family: "Tangerine", cursive;
+}
+.ffirst > h2 > img
+{
+	height: 40px;
+	width: 40px;	
+}
+.ffirst, .fsecond, .fthird, .ffourth
+{
+	
+	margin: 1%;
+	padding: 5px;
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+.fsecond > ul > li > a
+{
+  
+  padding: 0px;
+}
+.ffirst > p
+{
+	width: 350px;
+	color:antiquewhite;
+  line-height: 25px;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.fsecond > h5, .fthird > h5, .ffourth > h5
+{
+ 	text-align: left;
+	color: #b7b1be;
+  font-size: 1rem;
+}
+ul
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	text-align: justify;
+	line-height: 1.5;
+  color: antiquewhite;
+  font-size: 1.1rem;
+}
+address
+{
+    width: 180px;
+    color: antiquewhite;
+    line-height: 1.5;
+    font-style: normal;
+}
+ul li a
+{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.fsecond > ul li a:hover
+{
+  color: red;
+}
+
+ .fthird > ul li:hover
+    {
+	    color: red;
+    }
+    .ffourth > ul li:hover
+    {
+      color: red;
+    }
+    @media all and (max-width:750px)
+    {
+      .footer
+    {
+      flex-direction: column;
+      height: auto;
+      align-items: flex-start;
+    }
+    
+  }

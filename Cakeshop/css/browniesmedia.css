@@ -1,0 +1,27 @@
+@media all and (max-width: 750px)
+{
+    * {
+        margin: 0px;
+        padding: 0px;
+      }
+      .main
+      {
+        height: 100vh;
+      }
+      .body
+      {
+        height: 200vh;
+      }
+      .sub, .sub2, .sub3
+{
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    background-image: linear-gradient(90deg,#533e42,#2f2a25);
+
+    }
+    .footer
+    {
+      margin-top: 2900px;
+    }
+}
